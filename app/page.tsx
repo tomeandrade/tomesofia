@@ -91,14 +91,27 @@ export default function LuxuryWeddingWebsite() {
       </nav>
 
       {/* HERO */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-100">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.5 }}
-          className="text-center px-6"
+<section className="relative h-screen flex items-center justify-center overflow-hidden">
+
+  {/* Background Image */}
+  <div className="absolute inset-0">
+    <img
+      src="/couple.jpg"
+      alt="Tome and Sofia"
+      className="w-full h-full object-cover"
+    />
+
+    {/* Dark Overlay */}
+    <div className="absolute inset-0 bg-black/45" />
+  </div>
+
+  <motion.div
+    initial={{ opacity: 0, y: 40 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1.5 }}
+    className="relative z-10 text-center px-6 text-white"
         >
-          <p className="uppercase tracking-[0.4em] text-sm text-slate-500 mb-8 max-w-4xl mx-auto leading-relaxed">
+          <p className="uppercase tracking-[0.4em] text-sm text-white/80 mb-8 max-w-4xl mx-auto leading-relaxed">
   “Buscai primeiro o reino de Deus, e a sua justiça,
   <br />
   e todas estas coisas vos serão acrescentadas.”
@@ -106,14 +119,14 @@ export default function LuxuryWeddingWebsite() {
   Mateus 6:33
 </p>
 
-          <h1 className="font-serif text-6xl md:text-8xl mb-6 leading-none">
+          <h1 className="font-serif text-6xl md:text-8xl mb-6 leading-none text-blue-100 drop-shadow-2xl">
             Tome
             <span className="mx-4 text-slate-400">&</span>
             Sofia
           </h1>
 
-          <p className="text-xl text-slate-600 mb-10">
-            17 Outubro 2026 • Loures & Mafra
+          <p className="text-xl text-white/90 mb-10">
+            17 Outubro 2026
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-14">
