@@ -286,7 +286,7 @@ export default function LuxuryWeddingWebsite() {
             </select>
 
             <textarea
-              rows="5"
+              rows={5}
               className="p-5 rounded-2xl bg-slate-900 border border-slate-700"
               placeholder="Restrições alimentares ou mensagem"
             />
