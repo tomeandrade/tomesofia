@@ -125,21 +125,21 @@ export default function LuxuryWeddingWebsite() {
             Sofia
           </h1>
 
-          <p className="text-xl text-white/90 mb-10">
-            17 Outubro 2026
+          <p className="uppercase tracking-[0.35em] text-2xl md:text-3xl text-white/90 mb-12">
+            17 OUTUBRO 2026
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-14">
             <a
               href="#rsvp"
-              className="px-8 py-4 bg-black text-white rounded-full hover:scale-105 transition"
+              className="px-8 py-4 bg-white/20 backdrop-blur-md border border-white/30 text-white rounded-full hover:bg-white hover:text-black transition duration-300"
             >
               RSVP
             </a>
 
             <a
               href="#info"
-              className="px-8 py-4 border border-black rounded-full hover:bg-black hover:text-white transition"
+              className="px-8 py-4 border border-white/40 bg-white/10 backdrop-blur-md text-white rounded-full hover:bg-white hover:text-black transition duration-300"
             >
               Ver Informações
             </a>
@@ -154,10 +154,10 @@ export default function LuxuryWeddingWebsite() {
             ].map(([label, value]) => (
               <div
                 key={label}
-                className="bg-white/80 backdrop-blur-xl rounded-3xl p-6 shadow-xl border border-white"
+                className="bg-white/10 backdrop-blur-2xl rounded-[32px] p-8 shadow-2xl border border-white/20"
               >
-                <div className="text-3xl font-bold">{value}</div>
-                <div className="text-sm text-slate-500 uppercase tracking-widest mt-2">
+                <div className="text-4xl md:text-5xl font-light tracking-wide text-white">{value}</div>
+                <div className="text-xs text-white/60 uppercase tracking-[0.3em] mt-3">
                   {label}
                 </div>
               </div>
