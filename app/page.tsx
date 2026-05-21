@@ -98,9 +98,13 @@ export default function LuxuryWeddingWebsite() {
           transition={{ duration: 1.5 }}
           className="text-center px-6"
         >
-          <p className="uppercase tracking-[0.5em] text-sm text-slate-500 mb-6">
-            Luxury Wedding Celebration
-          </p>
+          <p className="uppercase tracking-[0.4em] text-sm text-slate-500 mb-8 max-w-4xl mx-auto leading-relaxed">
+  “Buscai primeiro o reino de Deus, e a sua justiça,
+  <br />
+  e todas estas coisas vos serão acrescentadas.”
+  <br />
+  — Mateus 6:33
+</p>
 
           <h1 className="font-serif text-6xl md:text-8xl mb-6 leading-none">
             Tome
