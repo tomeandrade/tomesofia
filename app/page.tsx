@@ -103,7 +103,7 @@ export default function LuxuryWeddingWebsite() {
   <br />
   e todas estas coisas vos serão acrescentadas.”
   <br />
-  — Mateus 6:33
+  Mateus 6:33
 </p>
 
           <h1 className="font-serif text-6xl md:text-8xl mb-6 leading-none">
