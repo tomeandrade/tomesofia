@@ -98,7 +98,7 @@ export default function LuxuryWeddingWebsite() {
     <img
       src="/couple.jpg"
       alt="Tome and Sofia"
-      className="w-full h-full object-cover object-center scale-95"
+      className="w-full h-full object-cover object-top scale-105"
     />
 
     {/* Dark Overlay */}
