@@ -177,27 +177,27 @@ export default function LuxuryWeddingWebsite() {
             <p className="uppercase tracking-[0.3em] text-slate-400 mb-4">
               Wedding Information
             </p>
-            <h2 className="font-serif text-5xl">Informações Gerais</h2>
+            <h2 className="font-serif text-6xl text-slate-800">Informações Gerais</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-10">
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-slate-50 rounded-[40px] p-10 border border-slate-100 shadow-sm"
+              className="bg-white/70 backdrop-blur-xl rounded-[40px] p-12 border border-blue-100 shadow-2xl hover:shadow-blue-100/40 transition duration-500"
             >
               <div className="flex items-center gap-4 mb-6">
-                <MapPin />
-                <h3 className="text-3xl font-serif">Cerimónia</h3>
+                <MapPin className="text-blue-200" size={32} />
+                <h3 className="text-4xl font-serif text-slate-800">Cerimónia</h3>
               </div>
 
-              <p className="text-lg mb-3">Igreja em Loures</p>
+              <p className="text-lg mb-3">LIFTad Igreja Evangélica  • Loures</p>
               <p className="text-slate-600 mb-6">
-                17 Outubro 2026 • 14:00
+                17 Outubro 2026  • 11:00
               </p>
 
               <a
-                href="https://maps.google.com"
-                className="inline-block px-6 py-3 bg-black text-white rounded-full"
+                href="https://maps.app.goo.gl/tHTuXWuhGF28UvLZ9"
+                className="inline-block px-8 py-4 bg-blue-100 text-slate-900 rounded-full hover:scale-105 hover:bg-blue-200 transition duration-300 font-medium shadow-lg"
               >
                 Abrir Google Maps
               </a>
@@ -205,21 +205,21 @@ export default function LuxuryWeddingWebsite() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-slate-50 rounded-[40px] p-10 border border-slate-100 shadow-sm"
+              className="bg-white/70 backdrop-blur-xl rounded-[40px] p-12 border border-blue-100 shadow-2xl hover:shadow-blue-100/40 transition duration-500"
             >
               <div className="flex items-center gap-4 mb-6">
-                <Heart />
+                <Heart className="text-blue-200 fill-blue-200" size={30} />
                 <h3 className="text-3xl font-serif">Receção</h3>
               </div>
 
-              <p className="text-lg mb-3">Quinta em Mafra</p>
+              <p className="text-lg mb-3">Quinta da Fonte  • Mafra</p>
               <p className="text-slate-600 mb-6">
-                Cocktail, jantar e festa premium.
+                17 Outubro 2026  • 13:00
               </p>
 
               <a
-                href="https://maps.google.com"
-                className="inline-block px-6 py-3 bg-black text-white rounded-full"
+                href="https://maps.app.goo.gl/iPEHyhMKMk3duPb96"
+                className="inline-block px-8 py-4 bg-blue-100 text-slate-900 rounded-full hover:scale-105 hover:bg-blue-200 transition duration-300 font-medium shadow-lg"
               >
                 Abrir Google Maps
               </a>
