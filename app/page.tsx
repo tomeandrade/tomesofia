@@ -343,7 +343,7 @@ const galleryPhotos = [
       <nav className="fixed inset-x-0 top-0 z-50 border-b border-[#b9dcf5]/15 bg-[#06121f]/75 shadow-[0_10px_40px_rgba(0,0,0,0.2)] backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
           <a href="#home" className="font-serif text-2xl tracking-wide text-white drop-shadow-md">
-            Tomé <span className="text-[#b9dcf5]">&</span> Sofia
+            Sofia <span className="text-[#b9dcf5]">&</span> Tomé
           </a>
 
           <div className="hidden items-center gap-7 lg:flex">
@@ -402,7 +402,7 @@ const galleryPhotos = [
         <div className="absolute inset-0">
           <img
             src="/couple.jpg"
-            alt="Tomé e Sofia"
+            alt="Sofia e Tomé"
             className="h-full w-full scale-[1.02] object-cover"
 style={{ objectPosition: "center 35%" }}
           />
@@ -425,11 +425,11 @@ style={{ objectPosition: "center 35%" }}
           </p>
 
           <h1 className="mt-8 font-serif text-6xl font-light leading-none text-white drop-shadow-[0_8px_30px_rgba(0,0,0,0.75)] sm:text-7xl md:text-8xl lg:text-9xl">
-            Tomé{" "}
+            Sofia {" "}
   <span className="text-[#bde3ff] drop-shadow-[0_0_24px_rgba(189,227,255,0.45)]">
     &
   </span>{" "}
-  Sofia
+  Tomé
           </h1>
 
           <div className="mt-7 flex flex-col items-center gap-2">
@@ -701,7 +701,7 @@ style={{ objectPosition: "center 35%" }}
     >
       <img
         src={photo.src}
-        alt={`Tomé e Sofia — fotografia ${index + 1}`}
+        alt={`Sofia e Tomé — fotografia ${index + 1}`}
         style={{ objectPosition: photo.position }}
         className="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-105"
       />
@@ -751,7 +751,7 @@ style={{ objectPosition: "center 35%" }}
 
     <img
       src={selectedPhoto}
-      alt="Fotografia ampliada de Tomé e Sofia"
+      alt="Fotografia ampliada de Sofia e Tomé"
       onClick={(event) => event.stopPropagation()}
       className="max-h-[88vh] max-w-[94vw] rounded-2xl object-contain shadow-2xl"
     />
@@ -814,9 +814,9 @@ style={{ objectPosition: "center 35%" }}
 
 <h2 className="font-serif text-6xl mb-8">
 
-Tomé
-<span className="text-[#AFCFEA]"> & </span>
 Sofia
+<span className="text-[#AFCFEA]"> & </span>
+Tomé
 
 </h2>
 
