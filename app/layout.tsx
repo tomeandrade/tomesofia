@@ -14,8 +14,8 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Tome & Sofia | 17 Outubro 2026",
-  description: "Website oficial do casamento de Tome e Sofia.",
+   title: "Sofia & Tomé | 17 Outubro 2026",
+  description: "Website oficial do casamento de Sofia e Tomé.",
 };
 
 export default function RootLayout({
