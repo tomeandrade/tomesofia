@@ -73,7 +73,7 @@ const copy = {
     teamTitle: "Equipa & Pessoas-Chave",
     transportTitle: "Transporte",
     galleryTitle: "Galeria",
-    galleryText: "Uma coleção de momentos que contam um pouco da nossa história.",
+    galleryText: "Uma coleção de bons momentos.",
     faqTitle: "Perguntas Frequentes",
     contactTitle: "Contactos de Emergência",
     rsvpTitle: "Confirmação de Presença",
@@ -563,12 +563,7 @@ style={{ objectPosition: "center 35%" }}
             eyebrow={t.scheduleEyebrow}
             title={t.scheduleTitle}
           />
-<p className="mt-4 text-center text-sm text-[#667788]">
-  Com o apoio de{" "}
-  <span className="font-medium text-[#1f3446]">
-    JMS Royal Events
-  </span>
-</p>
+
           {[
             [t.church, churchEvents],
             [t.venue, venueEvents],
@@ -603,6 +598,15 @@ style={{ objectPosition: "center 35%" }}
               </div>
             </div>
           ))}
+          <div className="mt-16 text-center">
+            <div className="mx-auto mb-6 h-px w-16 bg-[#dbe8f1]" />
+            <p className="text-xs uppercase tracking-[0.28em] text-[#91a8ba]">
+              Com o apoio de{" "}
+              <span className="font-medium text-[#5f7385]">
+                JMS Royal Events
+              </span>
+            </p>
+          </div>
         </div>
       </section>
 
@@ -688,18 +692,6 @@ style={{ objectPosition: "center 35%" }}
   title={t.galleryTitle}
 />          <p className="-mt-10 mb-12 text-center text-[#66798a]">{t.galleryText}</p>
 
-<p className="mt-4 text-center text-sm text-[#667788]">
-  Fotografia:{" "}
-  <a
-    href="https://ibeatrizsantana.com/moments"
-    target="_blank"
-    rel="noreferrer"
-    className="font-medium text-[#1f3446] underline underline-offset-4 transition hover:text-[#779cbb]"
-  >
-    Beatriz Santana
-  </a>
-</p>
-
   <div className="grid auto-rows-[180px] grid-cols-2 gap-3 sm:auto-rows-[220px] md:grid-cols-4 md:gap-5">
   {galleryPhotos.map((photo, index) => (
     <motion.button
@@ -737,6 +729,23 @@ style={{ objectPosition: "center 35%" }}
     </motion.button>
   ))}
 </div>
+
+<div className="mt-14 text-center">
+            <div className="mx-auto mb-6 h-px w-16 bg-[#dbe8f1]" />
+
+            <p className="text-xs uppercase tracking-[0.28em] text-[#91a8ba]">
+              Fotografia{" "}
+              <a
+                href="https://ibeatrizsantana.com/moments"
+                target="_blank"
+                rel="noreferrer"
+                className="font-medium text-[#5f7385] underline underline-offset-4 transition hover:text-[#779cbb]"
+              >
+                Beatriz Santana
+              </a>
+            </p>
+          </div>
+
         </div>
       </section>
 {selectedPhoto && (
