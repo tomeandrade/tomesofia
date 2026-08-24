@@ -77,7 +77,7 @@ const copy = {
     faqTitle: "Perguntas Frequentes",
     contactTitle: "Contactos de Emergência",
     rsvpTitle: "Confirmação de Presença",
-    rsvpIntro: "Confirme a sua presença até 1 de setembro de 2026.",
+    rsvpIntro: "Confirme a sua presença até 20 de setembro de 2026.",
     name: "Nome completo",
     email: "Email",
     phone: "Telefone",
