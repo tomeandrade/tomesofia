@@ -158,8 +158,8 @@ const faqItems = [
   {
     ptQ: "Até quando devo confirmar presença?",
     enQ: "When is the RSVP deadline?",
-    ptA: "Até 1 de setembro de 2026.",
-    enA: "By 1 September 2026.",
+    ptA: "Até 20 de setembro de 2026.",
+    enA: "By 20th September 2026.",
   },
   {
     ptQ: "Como chego ao local da receção?",
