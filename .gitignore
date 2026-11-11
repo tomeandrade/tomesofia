@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Fotografias originais alojadas no Cloudflare R2
+/public/gallery/*
+!/public/gallery/01-pre-wedding/
+!/public/gallery/01-pre-wedding/**
